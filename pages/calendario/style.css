@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica Neue ;
+    box-sizing: border-box;
+}
+@media(max-width:1000px){
+    body{
+        height: 100vh;
+    min-height: 100vh;
+    }
+}
+
+
+.nav-bar{
+   display:inline-block;
+    background: linear-gradient(#00C4BF,#3759CC);
+    width: 129px;
+   height: 100vw;
+    box-shadow: 6px 3px 6px #0000001f ;
+    max-height: 900px;
+    min-height: 900px;
+    
+}
+
+.container-azul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #0074d4;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 0 30px;
+}
+.cont {
+  color: #ffffff;
+  font-weight: 28px;
+  font-size: 19px;
+}
+.inicio{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
+
+.inicio p{
+    font-family:Helvetica ;
+    font-weight: 16px;
+    color: #FFFFFF;
+    }
+
+.inicio img{
+    width: 72px;
+    height: 56px;
+}
+
+.calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.calendario p{
+    font-family:Helvetica ;
+    font-weight: 16px;
+    color: #FFFFFF;
+    }
+
+.calendario img{
+    width: 55px;
+    height: 63px;
+}
+
+.documentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.documentos p{
+    font-family:Helvetica ;
+    font-weight: 16px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 16px;
+    }
+
+.documentos img{
+    width: 39px;
+    height: 63px;
+}
+
+.inscricoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.inscricoes p{
+    font-family:Helvetica ;
+    font-weight: 16px;
+    color: #FFFFFF;
+  text-align: center;
+    }
+
+.inscricoes img{
+    width: 72px;
+    height: 56px;
+}
+
+.suporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.suporte p{
+    font-family:Helvetica ;
+    font-weight: 16px;
+    color: #FFFFFF;
+    margin-top: 9px;
+    }
+
+.suporte img{
+    width: 72px;
+    height: 56px;
+}
+ 
+.home-principal{
+    display: inline-flex;
+    max-height: 1000px;
+}
+
+.conect-edu{
+    margin-top: 90px;
+    margin-left: 125px;
+}
+
+.box-1{
+    display:flex;
+    margin-top: 30px;
+    margin-left: 115px;
+}
+
+.box-1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #3E3E3E;
+}
+
+.box-2{
+    margin-top: 30px;
+    margin-left: 125px;
+}
+
+.text-1{
+    color:#3E3E3E ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.text-2{
+   color: #707070;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img-lateral{
+    margin-top: 250px;
+    width: 600px;
+    height: 600px;
+}
